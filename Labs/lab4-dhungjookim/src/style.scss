@@ -1,0 +1,192 @@
+.active {
+  color: #000;
+  text-decoration: none;
+}
+.inactive {
+  color: #000;
+  text-decoration: none;
+}
+
+div .title {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  margin: 4%;
+}
+
+body, html {
+  font-family: "Roboto", sans-serif;
+  background: #f3dbb7;
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('img/image.png');
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+.active {
+  color: whitesmoke;
+}
+
+.MuiCard-root-1 {
+  width: 480px;
+}
+
+// from http://css-snippets.com/simple-horizontal-navigation/
+#main {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav {
+  width: 480px;
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newPostContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newPostContainer div {
+  width: 480px;
+}
+
+#newPost {
+  width: 480px;
+}
+
+.navContainer {
+  padding-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  list-style: none;
+  background-color: red;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 172, 172);
+  display: block;
+  transition: .3s background-color;
+}
+ 
+nav a:hover {
+  background-color: #005f5f;
+}
+ 
+nav a.active {
+  color: white;
+  cursor: default;
+}
+
+.blogCover {
+  width: 25%;
+  background: white;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+.MuiCard-root-72 {
+  width: 480px;
+}
+.post {
+  width: 480px;
+}
+
+.postContainer {
+  width: 480px;
+}
+
+.postContainer div {
+  width: 480px;
+}
+
+div a {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+img {
+  width: 100%;
+}
+
+Card {
+  padding-bottom: 20%;
+}
+
+// created on bestcssbuttongenerator
+button {
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#303030;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+  text-decoration:none;
+  border: none;
+}
+button:hover {
+	background-color:transparent;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
