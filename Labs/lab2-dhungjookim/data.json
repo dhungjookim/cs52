@@ -1,0 +1,211 @@
+{
+    "title": "How Dartmouth generic are you?",
+    "outcomes": {
+            "outcome1": {"img": "img/outcome1.jpg", "text": "Not Very Generic"},
+            "outcome2": {"img": "img/outcome2.jpg", "text": "Somewhat Generic"},
+            "outcome3": {"img": "img/outcome3.jpg", "text": "Average Generic"},
+            "outcome4": {"img": "img/outcome4.jpg", "text": "Very Generic"},
+            "outcome5": {"img": "img/outcome5.jpg", "text": "Super Generic"}
+    },
+    "questions": [
+        {
+            "question_name": "How many times a week do you go out?",
+            "answers": [
+                {
+                    "text": "0",
+                    "value": "0",
+                    "name": "number-per-week"
+                },
+                {
+                    "text": "1",
+                    "value": "2",
+                    "name": "number-per-week"
+                },
+                {
+                    "text": "2",
+                    "value": "3",
+                    "name": "number-per-week"
+                },
+                {
+                    "text": "3",
+                    "value": "3",
+                    "name": "number-per-week"
+                },
+                {
+                    "text": "4",
+                    "value": "2",
+                    "name": "number-per-week"
+                },
+                {
+                    "text": ">4",
+                    "value": "1",
+                    "name": "number-per-week"
+                }
+            ]
+        },
+        {
+            "question_name": "What is your major?",
+            "answers": [
+                {
+                    "text": "GEOG/PHIL/CHEM/MATH",
+                    "img_url": "img/001-worldwide.png",
+                    "value": "2",
+                    "name": "major"
+                },
+                {
+                    "text": "ENGL/SOC/LING",
+                    "img_url": "img/002-book.png",
+                    "value": "2",
+                    "name": "major"
+                },
+                {
+                    "text": "NEURO/PSYCH/BIO",
+                    "img_url": "img/003-neuron.png",
+                    "value": "3",
+                    "name": "major"
+                },
+                {
+                    "text": "CS/ENGS",
+                    "img_url": "img/004-search.png",
+                    "value": "4",
+                    "name": "major"
+                },
+                {
+                    "text": "ECON/GOVT/QSS/HIST",
+                    "img_url": "img/005-economic.png",
+                    "value": "5",
+                    "name": "major"
+                },
+                {
+                    "text": "Other",
+                    "img_url": "img/006-block.png",
+                    "value": "1",
+                    "name": "major"
+                }
+            ]
+        },
+        {
+            "question_name": "What industry do you want to or will work in?",
+            "answers": [
+                {
+                    "text": "Finance/Consulting/Tech",
+                    "img_url": "img/finance.png",
+                    "value": "5",
+                    "name": "industry"
+                },
+                {
+                    "text": "Health & Sciences",
+                    "img_url": "img/health.jpg",
+                    "value": "4",
+                    "name": "industry"
+                },
+                {
+                    "text": "Community Service/Education",
+                    "img_url": "img/community.jpeg",
+                    "value": "3",
+                    "name": "industry"
+                },
+                {
+                    "text": "Arts/Media/Entertainment",
+                    "img_url": "img/arts.jpg",
+                    "value": "2",
+                    "name": "industry"
+                },
+                {
+                    "text": "Government/Military",
+                    "img_url": "img/government.jpg",
+                    "value": "2",
+                    "name": "industry"
+                },
+                {
+                    "text": "Other",
+                    "img_url": "img/006-block.png",
+                    "value": "1",
+                    "name": "industry"
+                }
+            ]
+        },
+        {
+            "question_name": "What state do you want to want to or will work in?",
+            "answers": [
+                {
+                    "text": "NY",
+                    "img_url": "img/newyork.png",
+                    "value": "5",
+                    "name": "location"
+                },
+                {
+                    "text": "CA",
+                    "img_url": "img/california.png",
+                    "value": "5",
+                    "name": "location"
+                },
+                {
+                    "text": "MA",
+                    "img_url": "img/massachusetts.png",
+                    "value": "4",
+                    "name": "location"
+                },
+                {
+                    "text": "CT",
+                    "img_url": "img/connecticut.jpg",
+                    "value": "3",
+                    "name": "location"
+                },
+                {
+                    "text": "D.C./VA/MD",
+                    "img_url": "img/maryland-virginia.gif",
+                    "value": "4",
+                    "name": "location"
+                },
+                {
+                    "text": "Other",
+                    "img_url": "img/006-block.png",
+                    "value": "1",
+                    "name": "location"
+                }
+            ]
+        },
+        {
+            "question_name": "What is your highest intended degree?",
+            "answers": [
+                {
+                    "text": "Masters",
+                    "img_url": "img/masters.jpg",
+                    "value": "5",
+                    "name": "degree"
+                },
+                {
+                    "text": "Medical Degree",
+                    "img_url": "img/medical.jpg",
+                    "value": "3",
+                    "name": "degree"
+                },
+                {
+                    "text": "PhD",
+                    "img_url": "img/phd.jpg",
+                    "value": "2",
+                    "name": "degree"
+                },
+                {
+                    "text": "Law",
+                    "img_url": "img/law.png",
+                    "value": "3",
+                    "name": "degree"
+                },
+                {
+                    "text": "Bachelor of Engineering",
+                    "img_url": "img/engineering.jpg",
+                    "value": "1",
+                    "name": "degree"
+                },
+                {
+                    "text": "Other",
+                    "img_url": "img/006-block.png",
+                    "value": "1",
+                    "name": "degree"
+                }
+            ]
+        }
+    ]
+}

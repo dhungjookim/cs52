@@ -1,0 +1,133 @@
+input[type=radio] {
+    display:none;
+}
+
+/*Header CSS*/
+#header-background{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(circle, rgb(0, 0, 0, 0.8), rgba(255, 255, 255, 0.4)), url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#header-text-container{
+    display: flex;
+    width: 33%;
+    text: white;
+    margin-left: 3%;
+    flex-direction: column;
+    justify-content: center;
+}
+h1, h5, h6{
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+}
+
+h2{
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+    text-align: center;
+}
+div.h2-background{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(circle, rgb(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/dartmouth.jpg);
+    background-position: 5px;
+    margin-top: 35px;
+}
+
+/* Questions CSS*/
+.big-text{
+    font-size: 90px;
+    align-self: center;
+}
+
+
+.h2-background{
+    display: flex;
+    width: 50%;
+}
+.row{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#button-div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Button */
+/*taken from https://www.w3schools.com/css/css3_buttons.asp */
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+
+
+/*Hover CSS*/
+label:hover {
+    box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
+}
+
+span{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    display:inline-block;
+    border-radius: 12px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#outcome{
+    display: flex;
+    flex-direction: row;
+    max-width:800px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+
+/*Result CSS*/
+.result-container{
+    display: flex; 
+    width: 100%;
+    height: 600px; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result-container div{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
