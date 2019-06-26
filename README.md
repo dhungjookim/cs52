@@ -1,5 +1,5 @@
-# Over the Course of 10 weeks during my senior spring term, I learned full stack web development
-I learned how to build my own web applications with front-end UIs and server-side APIs.
+# During my senior spring term, I learned full stack web development
+## I learned how to build my own web applications with front-end UIs and server-side APIs.
 
 Here is the full stack that I learned: 
 Front-end:
