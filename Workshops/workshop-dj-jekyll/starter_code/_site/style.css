@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+header h1 {
+    padding-left: .5rem;
+    color: #b7b7b7;
+}
+
+header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background: #333333;
+}
+
+#navbar a {
+    padding: 0 1.5rem 0 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #b7b7b7;
+}
+
+main {
+    background-color: #f7f7f7;
+    color: black;
+    padding: .5rem;
+}
+
+#images-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#images-container img {
+    display: flex;
+    margin: .16vw 0 .16vw 0;
+    width: 33%;
+    min-width: 300px;
+    height: 25vh;
+    min-height: 225px;
+    justify-content: center;
+}
+
+#bio-container {
+    background-color: rgba(0,0,0,.2);
+    padding: .25rem .5rem 2rem .5rem;
+}
+
+footer {
+    background: #333333;
+    color: #b7b7b7;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p {
+    padding-left: .5rem;
+}
+footer nav {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+footer nav li {
+    padding: 0 1rem 0 1rem;
+}

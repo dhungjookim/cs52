@@ -1,0 +1,8 @@
+#landing.jumbotron {
+    background-image: url("https://picsum.photos/1300/200/?image=29");
+    background-size: cover;
+ }
+ #landing.jumbotron h1 {
+    color: #FFF;
+    text-shadow: 2px 1px #000;
+ }

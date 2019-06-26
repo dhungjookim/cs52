@@ -1,0 +1,64 @@
+---
+site_name: Static Site Demo
+image_links:
+ - https://picsum.photos/1200/900/?random=1
+ - https://picsum.photos/1200/900/?random=2
+ - https://picsum.photos/1200/900/?random=3
+ - https://picsum.photos/1200/900/?random=4
+ - https://picsum.photos/1200/900/?random=5
+ - https://picsum.photos/1200/900/?random=6
+ - https://picsum.photos/1200/900/?random=7
+ - https://picsum.photos/1200/900/?random=8
+ - https://picsum.photos/1200/900/?random=9
+show_bio: false
+---
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Home</title>
+  </head>
+  <body>
+        <header>
+            <h1>{{page.site_name | upcase }}</h1>
+                <nav id="navbar">
+                    <a  href="#">Link 1</a>
+                    <a  href="#">Link 2</a>
+                    <a  href="#">Link 3</a>
+                </nav>
+        </header>
+        <main>
+                <h1>Photo Gallery</h1>
+                <div id="images-container">
+                    <div id="images-container">
+                        {% for url in page.image_links %}
+                            <img src="{{url}}">
+                        {% endfor %}
+                    </div>>
+                </div>
+                {% if page.show_bio %}
+                <div id="bio-container">
+                    <h2>Biography</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nisl at neque blandit gravida. Proin urna arcu, consequat sit amet mi in, condimentum dapibus dolor. Mauris sodales euismod leo, a eleifend magna lobortis sed. Ut ac nibh ligula. Morbi suscipit arcu dui, sit amet rutrum turpis imperdiet ut. Sed egestas ligula ac dignissim ultrices. Morbi porttitor et diam vel gravida. Morbi sollicitudin velit in interdum auctor. Suspendisse lacinia viverra libero, et laoreet arcu feugiat id. In ut ex ex. Integer viverra augue vitae fringilla tempor. Sed placerat massa non dui aliquet pulvinar. Etiam elementum in ex eu egestas. Nam eget ornare quam. Nulla euismod ex ante, tincidunt dignissim dui consectetur ut. Nunc consectetur justo vel augue rhoncus, in elementum est vestibulum. Integer pellentesque dolor vel pellentesque condimentum. Nunc suscipit dui vel varius ultrices. Vestibulum rutrum vulputate hendrerit. Fusce vitae convallis dolor.
+                    </p>
+                </div>
+                {% endif %}
+        </main>
+        <footer>
+                <p>CS52 Workshop</p>
+                <h1>Static Site Generators</h1>
+                <nav>
+                    <li>
+                        <p>Link 1</p>
+                    </li>
+                    <li>
+                        <p>Link 2</p>
+                    </li>
+                    <li>
+                        <p>Link 3</p>
+                    </li>
+                </div>    
+        </footer>
+  </body>
+</html> 
