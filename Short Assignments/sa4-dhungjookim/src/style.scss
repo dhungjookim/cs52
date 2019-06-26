@@ -1,0 +1,48 @@
+$fontcolor:  rgb(10%, 10%, 10%);
+$backgroundcolor: rgb(98%, 98%, 98%);
+
+.logo {
+  background-image: url('img/image.png');
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: $fontcolor;
+  background-color: $backgroundcolor;
+  margin: 50px;
+}
+
+
+#search-bar {
+  margin-bottom: 20px;
+
+  input {
+    font-size: 1.5em;
+    border-radius: .25em;
+  }
+}
+
+#video-detail {
+  width: 100%;
+}
+
+#video-section {
+  display: flex;
+
+  li {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    width: 25vw;
+    padding: 10px;
+  }
+  li:hover {
+    background: darken( $backgroundcolor, 10% );
+  }
+
+}
