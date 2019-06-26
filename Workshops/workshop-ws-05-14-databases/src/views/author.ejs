@@ -1,0 +1,42 @@
+<html>
+  <% include partials/head %>
+<body>
+    <% include partials/nav %>
+    <h2 class="author-title"><%=polls[0].author.name %>'s polls</h2>
+    <div class="card-flex container section">
+    <% if (polls.length > 0) { %>
+        <% polls.sort(function(a,b) {return a.score < b.score}) %>
+        <% polls.forEach(function(poll) { %>
+
+            <div class="card">
+            <div class="card-image" style="background-image: url(<%= poll.imageURL %>)">
+            </div>
+            <div class="card-content">
+                <p><%= poll.text %></p>
+            </div>
+            <div class="card-action">
+                <a data-id="<%=poll.id%>" data-vote="up" class="vote" ><i class="material-icons">thumb_up</i><%= poll.upvotes %></a>
+                <a data-id="<%=poll.id%>" data-vote="down" class="vote" ><i class="material-icons">thumb_down</i><%= poll.downvotes %></a>
+                <% if (poll.author) {%>
+                    <a href="/author/<%= poll.author.id %>"</a><%= poll.author.name %></a>
+                <% } %>
+            </div>
+            </div>
+        <% }); %>
+        <% } %>
+    </div>
+    
+    <script>
+        $('.vote').click(function(event) {
+        event.preventDefault();
+        var vote=$(event.currentTarget).data('vote');
+        var id=$(event.currentTarget).data('id');
+        $.ajax({
+            type: "POST",
+            url: "/vote/"+id,
+            data: {vote}
+        }).done(location.reload());
+        });
+    </script>
+</body>
+</html>

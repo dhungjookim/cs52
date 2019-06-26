@@ -1,0 +1,57 @@
+$fontcolor:  rgb(10%, 10%, 10%);
+$backgroundcolor: rgb(98%, 98%, 98%);
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: $fontcolor;
+  background-color: $backgroundcolor;
+  margin: 50px;
+}
+
+.search-bar-container {
+  margin-bottom: 40px;
+  margin-left: 110px;
+}
+
+#search-bar {
+  margin-bottom: 40px;
+
+  input {
+    font-size: 1.5em;
+    border-radius: .25em;
+  }
+}
+
+#video-section-container {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+#video-detail {
+  width: 75%;
+  height: auto;
+  align-self:left;
+}
+
+#video-section {
+  display: flex;
+  justify-content: space-around;
+
+  li {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    width: 25vw;
+    padding: 10px;
+  }
+  li:hover {
+    background: darken( $backgroundcolor, 10% );
+  }
+
+}
+
+.video-bar {
+  align-self:flex-end;
+}

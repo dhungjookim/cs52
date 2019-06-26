@@ -1,0 +1,205 @@
+{
+    "welcome_string": "Welcome to our workshop!",
+    "quiz_title": "Which Dartmouth building are you?",
+    "submit_button": "RESULTS!",
+    "number_of_questions": 7,
+    "congrats": "congrats, you're...",
+    "error": "please go back and answer all questions",
+    "outcomes": {
+        "Dartmouth Hall": {
+            "img": "img/m.jpg",
+            "text": "you have a tendency to over-exaggerate and self-indulge, but your charisma and talent make up for it"
+        },
+        "Foco": {
+            "img": "img/a.jpg",
+            "text": "you're a social butterfly, loove your green smoothies, and are always up for gossiping"
+        },
+        "Collis": {
+            "img": "img/j.jpg",
+            "text": "you're a hardworker, super loyal, and just want some nice family time "
+        },
+        "Baker": {
+            "img": "img/d.jpg",
+            "text": "you're not afraid to tell it like it is and you love a designer sweater in the summer. and you can't ride a bike."
+        }
+    },
+    "questions": [
+        {
+            "question_name": "Pick a baby animal:",
+            "question_img_url": "img/header_img.jpg",
+            "name": "kardashian",
+            "choices": [
+                {
+                    "img": "img/baby1.jpg",
+                    "value": "Collis"
+                },
+                {
+                    "img": "img/baby2.jpg",
+                    "value": "Baker"
+                },
+                {
+                    "img": "img/baby3.jpg",
+                    "value": "DartHall"
+                },
+                {
+                    "img": "img/baby4.jpg",
+                    "value": "Foco"
+                }
+            ]
+        },
+        {
+            "question_name": "What would you eat for breakfast?",
+            "question_img_url": "img/header_img.jpg",
+            "name": "breakfast",
+            "choices": [
+                {
+                    "caption": "green juice",
+                    "img": "img/greenjuice.jpg",
+                    "value": "Foco"
+                },
+                {
+                    "caption": "egg white omlette",
+                    "img": "img/eggwhite.jpeg",
+                    "value": "Baker"
+                },
+                {
+                    "caption": "a bloody mary",
+                    "img": "img/bloodymary.jpg",
+                    "value": "DartHall"
+                },
+                {
+                    "caption": "waffles",
+                    "img": "img/waffle.jpg",
+                    "value": "Collis"
+                }
+            ]
+        },
+        {
+            "question_name": "Which scenic Dartmouth image speaks to you most?",
+            "question_img_url": "img/header_img.jpg",
+            "name": "alexis",
+            "choices": [
+                {
+                    "img": "img/dart2.jpg",
+                    "value": "Collis"
+                },
+                {
+                    "img": "img/dart4.jpg",
+                    "value": "Baker"
+                },
+                {
+                    "img": "img/dart5.jpg",
+                    "value": "Foco"
+                },
+                {
+                    "img": "img/dart6.jpg",
+                    "value": "DartHall"
+                }
+            ]
+        },
+        {
+            "question_name": "Pick a Dartmouth season:",
+            "question_img_url": "img/header_img.jpg",
+            "name": "brand",
+            "choices": [
+                {
+                    "caption": "Winter",
+                    "img": "img/winter.jpg",
+                    "value": "Baker"
+                },
+                {
+                    "caption": "Spring",
+                    "img": "img/spring.jpg",
+                    "value": "Foco"
+                },
+                {
+                    "caption": "Summer",
+                    "img": "img/summer.jpg",
+                    "value": "Collis"
+                },
+                {
+                    "caption": "Fall",
+                    "img": "img/fall.jpg",
+                    "value": "DartHall"
+                }
+            ]
+        },
+        {
+            "question_name": "Who is your icon?",
+            "question_img_url": "img/header_img.jpg",
+            "name": "celeb",
+            "choices": [
+                {
+                    "caption": "Barbara Streisand",
+                    "img": "img/babs.jpg",
+                    "value": "Collis"
+                },
+                {
+                    "caption": "Mariah Carey",
+                    "img": "img/mariah.jpg",
+                    "value": "Baker"
+                },
+                {
+                    "caption": "Bruce Springstein",
+                    "img": "img/bruce.jpg",
+                    "value": "Foco"
+                },
+                {
+                    "caption": "Paris Hilton",
+                    "img": "img/parishilton.jpg",
+                    "value": "DartHall"
+                }
+            ]
+        },
+        {
+            "question_name": "Pick a Dr. Seuss quote:",
+            "question_img_url": "img/header_img.jpg",
+            "name": "moira",
+            "choices": [
+                {
+                    "caption": "&#34You're off to Great Places! Today is your day! Your mountain is waiting, So...get on your way!&#34",
+                    "value": "Baker"
+                },
+                {
+                    "caption": "&#34Fantasy is a necessary ingredient in living, it's a way of looking at life through the wrong end of a telescope.&#34",
+                    "value": "Foco"
+                },
+                {
+                    "caption": "&#34People are weird. When we find someone with weirdness that is compatible with ours, we team up and call it love.&#34",
+                    "value": "DartHall"
+                },
+                {
+                    "caption": "&#34Don't cry because it's over; smile because it happened&#34",
+                    "value": "Collis"
+                }
+            ]
+        },
+        {
+            "question_name": "What is your ideal Dartmouth activity?",
+            "question_img_url": "img/header_img.jpg",
+            "name": "vacation",
+            "choices": [
+                {
+                    "caption": "Swimming in the river",
+                    "img": "img/swimming.jpg",
+                    "value": "Foco"
+                },
+                {
+                    "caption": "Shopping at Indigo",
+                    "img": "img/indigo.jpg",
+                    "value": "Collis"
+                },
+                {
+                    "caption": "Molly's Margs",
+                    "img": "img/margs.jpg",
+                    "value": "Baker"
+                },
+                {
+                    "caption": "Midnight snowball fight",
+                    "img": "img/snowball.jpg",
+                    "value": "DartHall"
+                }
+            ]
+        }
+    ]
+}

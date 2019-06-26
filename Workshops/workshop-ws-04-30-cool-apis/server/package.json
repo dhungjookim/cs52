@@ -1,0 +1,42 @@
+{
+  "name": "cs52-cool-apis-workshop-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "repository": "https://github.com/dartmouth-cs52-19S/workshop-solution-ws-04-30-cool-apis",
+  "author": "Thomas Monfre <tmonfre@users.noreply.github.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js --exec babel-node",
+    "start": "babel-node src/server.js",
+    "build": "babel src -d dist",
+    "prod": "yarn build; node dist/server.js"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=9 <=11",
+    "npm": "^5.6.0",
+    "yarn": "^1.6.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "express-form-data": "^2.0.8",
+    "morgan": "^1.9.0",
+    "multer": "^1.4.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "nodemon": "^1.17.3"
+  }
+}

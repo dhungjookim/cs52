@@ -1,0 +1,137 @@
+body, html {
+  font-family: "Roboto", sans-serif;
+  background: var(--alt-color-1);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+#main-header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  color: white;
+  
+}
+
+h4 {
+  cursor: default;
+}
+.menu-toolbar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-list {
+  display: flex;
+  flex-direction: row;
+  color: white;
+
+}
+input, button, i, textarea {
+  outline: none;
+}
+
+.home-page-results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.title-star {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.home-page-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.new-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+
+  .new-post-input {
+    margin: 2%;
+    width: 70%;
+    height: 10%;
+    font-size: 3vh;
+  }
+
+  .new-post-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+}
+.modal-repo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tag {
+  font-style: italic;
+}
+.star-div {
+  outline: none
+}
+.commit-modal-info {
+  display: flex;
+  flex-flow: row wrap;
+  border-top: 0.05em solid lightgrey;
+
+  .commit-modal-message {
+    word-wrap: break-word;
+    flex: 2;
+  }
+  .commit-modal-date {
+    flex: 1;
+    font-style: italic;
+  }
+
+}
+
+.view-post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.edit-label {
+  width: 100%;
+  border-bottom: 0.02em solid lightgray;
+
+  .bold {
+    font-weight: bold;
+  }
+}
+
+a {
+  color: rgb(72, 133, 237);
+
+  :active{ 
+    color: rgb(72, 133, 237);
+  }
+}
+
