@@ -45,7 +45,7 @@
     "firebase": "^5.10.0",
     "firebase-tools": "^6.7.0",
     "immutable": "^4.0.0-rc.12",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "lodash.debounce": "^4.0.8",
     "marked": "^0.6.2",
     "react": "^16.8.6",
