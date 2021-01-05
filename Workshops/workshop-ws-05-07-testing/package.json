@@ -46,7 +46,7 @@
   "dependencies": {
     "@babel/register": "^7.4.4",
     "async": "^2.6.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chai": "^4.2.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
